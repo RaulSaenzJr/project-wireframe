@@ -1,14 +1,6 @@
-.floatright {
-    float: right;  
-}
-body {
-    margin: 0;
-    font-family: Verdana, sans-serif;
-    color: white;
-}
-body {
-    background: olivedrab;
-}
+.floatright { float: right;  }
+body { margin: 0; font-family: Verdana, sans-serif; color: white; }
+body { background: olivedrab; }
 header { width: 100%; height: 60px; background-color: dimgrey; padding: 5px 0; margin-bottom: 5px; }
 .container { width: 940px; height: 98%; background-color: grey; margin: 5px auto; }
     #logo { width: 200px; height: 60px; background-color: lightslategrey; float: left; }
@@ -16,52 +8,17 @@ header { width: 100%; height: 60px; background-color: dimgrey; padding: 5px 0; m
     nav li { display: inline-flex; margin-right: 20px; font-weight: bold; font-size: 18px; }
     nav li a { color: silver; text-decoration: none; }
     nav li a:hover { color: moccasin; text-decoration: underline dashed; font-weight: bold; }
-
-#contactbody {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-#sectionform {
-    min-height: 900px; width: 100%; display: flex; align-items: center; justify-content: center; 
-}
-.container3 { 
-    width: 40%; max-width: 400%; background-color:saddlebrown; box-shadow: 0px 0px 20px #00000020; padding: 20px; border-radius: 8px; text-align: start; 
-}
-.step {
-    display: none;
-}
-.step.active {
-    display: block;
-}
-.form-group {
-    width: 100%;
-    margin-top: 20px;
-}
-.form-group input {
-    width: 100%;
-    border: 1.5px solid lightgrey;
-    padding: 5px;
-    font-size: 18px;
-    margin-top: 5px;
-    border-radius: 4px;
-}
-button.next-btn,
-button.previous-btn,
-button.submit-btn {
-    float: right;
-    margin-top: 20px;
-    padding: 10px 30px;
-    border: none;
-    outline: none;
-    background-color: darkolivegreen;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    cursor: pointer;
-}
-button.previous-btn {
-    float: left;
-}
-button.submit-btn {
-    background-color: dimgray;
-}
-
+#contactbody {font-family: Verdana, Geneva, Tahoma, sans-serif; }
+#sectionform { min-height: 900px; width: 100%; display: flex; align-items: center; justify-content: center; }
+.container3 {  width: 40%; max-width: 400%; background-color:saddlebrown; box-shadow: 0px 0px 20px #00000020;
+     padding: 20px; border-radius: 8px; text-align: start; }
+.step { display: none; }
+.step.active { display: block; }
+.form-group { width: 100%; margin-top: 20px; }
+.form-group input { width: 100%; border: 1.5px solid lightgrey; padding: 5px; font-size: 18px; margin-top: 5px; border-radius: 4px; }
+button.next-btn, button.previous-btn, button.submit-btn { float: right; margin-top: 20px; padding: 10px 30px; border: none; outline: none;
+    background-color: darkolivegreen; font-family: Verdana, Geneva, Tahoma, sans-serif; cursor: pointer; }
+button.previous-btn { float: left; }
+button.submit-btn { background-color: dimgray; }
 .footer { width: 100%; height: 60px; background-color: saddlebrown; text-align: center; font-size: 40px; }
 .container2 { width: 100%; height: 100%; background-color: grey; }
