@@ -1,4 +1,4 @@
-#parent {display: flex;flex-flow: row wrap; height: 100%; width: 100%; padding-top: 200px; padding-bottom: 225px;justify-content: space-evenly;
+#parent {display: flex; flex-flow: row wrap; height: max-content; width: 100%; padding-top: 200px; padding-bottom: 225px;justify-content: space-evenly;
 	 background: olivedrab; }
 .child { width: 150px; height: 150px; }
 .child1 { background-color: white; }
